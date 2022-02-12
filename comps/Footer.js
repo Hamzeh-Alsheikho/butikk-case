@@ -1,12 +1,7 @@
-import React from "react"
+import React from "react";
 
 const Footer = () => {
-    return (
-        <footer>
-            copyrights 2021
-
-        </footer>
-    );
+  return <footer>Butikk case oppgave coded 2022</footer>;
 };
 
 export default Footer;

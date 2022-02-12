@@ -10,10 +10,10 @@
 .btn {
   display: block;
   width: 150px;
-  padding: 8px 0;
+  padding: 0px 0px;
   margin: 20px auto;
-  background: #4979ff;
+  background: #bd8a97;
   border-radius: 4px;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
 }

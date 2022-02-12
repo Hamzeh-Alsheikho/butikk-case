@@ -35,12 +35,12 @@ export const getStaticProps = async ()=>{
 const Products = ({prods}) => {
   return (
     <div>
-      <h5 className="h1">All Products</h5>
+      <h1 className="h1">All Products</h1>
       {prods.map(product =>(
         <Link href={"/butikk/" +product.id} key={product.id}>
           <a className={styles.single}>
                 
-          <h3>{product.name}</h3>  
+          <h3 >{product.name}</h3>  
 
           </a>
         </Link>

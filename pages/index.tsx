@@ -16,8 +16,13 @@ const Home: NextPage = () => {
         <p className={styles.text}>Welcome to online shopping</p>
 
         <Link passHref href="/butikk">
-          <Button colorScheme="teal" size="md" margin={110} marginLeft={410}>
+          <Button colorScheme="teal" size="md" margin={10} marginLeft={300}>
             See all products
+          </Button>
+        </Link>
+        <Link passHref href="/categories">
+          <Button colorScheme="teal" size="md">
+            See all gatefories
           </Button>
         </Link>
       </div>
