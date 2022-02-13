@@ -28,9 +28,14 @@ nav {
   justify-content: flex-start;
   align-items: flex-end;
   border-bottom: 2px solid rgb(221, 221, 221);
+  font-size: large;
 }
 nav a {
   margin-left: 20px;
+}
+nav a:hover {
+  color: brown;
+  font-size: larger;
 }
 nav.log {
   margin-right: auto;

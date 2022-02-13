@@ -6,14 +6,18 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-      <Image src="/logo.png" width={128} height={37}/>
+        <a href="/">
+          <Image src="/logo.png" width={120} height={30} />{" "}
+        </a>
       </div>
       <Link href="/">Home</Link>
       <Link href="/butikk"> Products</Link>
       <Link href="/categories/"> Catetogries</Link>
       <Link href="/about"> About</Link>
       <Link href="/contact"> Contact us</Link>
-      <Link href="/cart"> Cart</Link>
+      <a href="/cart">
+        <Image src="/cart.png" width={28} height={20} />
+      </a>
     </nav>
   );
 };
