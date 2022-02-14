@@ -1,5 +1,5 @@
 {
-  "name": "butikk-case",
+  "name": "-case",
   "private": true,
   "scripts": {
     "dev": "next dev",

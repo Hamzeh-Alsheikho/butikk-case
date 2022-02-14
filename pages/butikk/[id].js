@@ -52,7 +52,7 @@ const Detailes = ({ prod }) => {
         {prod.name} | Price {prod.price} kr
       </h1>
       <p>
-        Discription:<br></br>
+      Description:<br></br>
         <br></br>
         {prod.description}
         {prod.stock}

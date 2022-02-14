@@ -52,7 +52,7 @@ const Detailes = ({ catgo }) => {
           {catgo.name} | Price {catgo.price} kr
         </h1>
         <p>
-          Discription:<br></br>
+        Description:<br></br>
           <br></br>
           {catgo.description}
         </p>

@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         </Link>
         <Link passHref href="/categories">
           <Button colorScheme="teal" size="md">
-            See all gatefories
+            See all categories
           </Button>
         </Link>
       </div>

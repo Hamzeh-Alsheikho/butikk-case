@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "@fortawesome/fontawesome-free/css/all.min.css";
+
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 const NotFound = () => {
