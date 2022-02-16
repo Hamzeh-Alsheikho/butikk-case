@@ -1,12 +1,16 @@
 .single {
   padding: 20px 16px;
   background: rgb(236, 229, 229);
-  display: block;
+  display: grid;
   margin: 20px 10px;
   border-left: 8px solid #fff;
   border-radius: 1em;
   font-size: x-large;
+  max-width: 50rem;
 }
 .single:hover {
   border-left: 8px solid #4979ff;
+}
+.main {
+  display: flow-root;
 }

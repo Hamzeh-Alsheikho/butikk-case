@@ -57,7 +57,6 @@ const Detailes = ({ prod }) => {
         {prod.description}
         {prod.stock}
       </p>
-
       <Link passHref href="/cart">
         <Button colorScheme="teal" size="md" margin={8} marginLeft={20}>
           Add to cart
