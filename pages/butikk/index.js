@@ -33,13 +33,34 @@ export const getStaticProps = async () => {
   };
 };
 
+
 const Products = ({ prods, catData }) => {
   const findName = (data, id) => {
     return data.find((element) => element.id === id);
+    
   };
+
+
   return (
     <>
       <div className={styles.main}>
+
+      <div>
+        <h1 className="h1">All catetogries</h1>
+        {catData.map((catData) => (
+          
+          <Link href={"/butikk/" + catData.id} key={catData.name}  >
+            <a className={styles.single}>
+              <h3>{catData.name} </h3>
+              
+
+            </a>
+          </Link>
+          
+        ))}
+      </div>
+ 
+
         <h1 className="h1">All Products</h1>
 
         {prods.map((product) => (
@@ -58,7 +79,7 @@ const Products = ({ prods, catData }) => {
                   <div>
                    <br></br> <img src={v.image } height={150} width={120} /><br></br>
                     <h1>Stock: {v.stock}</h1>
-                    <Button color={"green"}>See more</Button>
+                    <Button color={"blue"}>See more</Button>
                     <br></br>
                   </div>
                 );

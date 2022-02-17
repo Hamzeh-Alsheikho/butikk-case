@@ -3,7 +3,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-   
     "start": "next start",
     "lint": "next lint",
     "version": "1.0.0",
