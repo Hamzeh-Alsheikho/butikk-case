@@ -36,7 +36,7 @@ const Catetogries = ({ category }) => {
   return (
     <>
       <div>
-        <h1 className="h1">All catetogries</h1>
+        <h1 className="h1"> All catetogries</h1>
         {category.map((categ) => (
           <Link href={"/butikk/" + categ.id} key={categ.id}>
             <a className={styles.single}>
