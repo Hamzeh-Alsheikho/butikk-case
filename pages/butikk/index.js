@@ -112,7 +112,7 @@ function Products({ prods, catData }) {
               {product.variants.map((v) => {
                 return (
                   <div key={v.name}>
-                    <br></br> <img src={v.image} height={150} width={120} />
+                    <br></br> <img src={v.image} height={150} width={140} />
                     <br></br>
                     <h1>Stock: {v.stock}</h1>
                     <h3>Price: {product.price} Kr</h3>
